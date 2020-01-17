@@ -4,7 +4,7 @@
 set -e
 
 MyUSER="root"	# DB_USERNAME
-MyPASS="eltsen"	# DB_PASSWORD
+MyPASS="govind"	# DB_PASSWORD
 MyHOST="localhost"	# DB_HOSTNAME
 DEST="/home/govind"
 DAYS=10
