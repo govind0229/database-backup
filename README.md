@@ -1,19 +1,20 @@
 # database-backup
-All Database Backup script.
 
-This script is used for take dump all available databases. 
+## All database backup script automation.
 
-SKIP = add database name which database no need take dump. 
+### This script is used for take dump all available databases. 
 
-        like;
-                SKIP="information_schema mysql performance_schema"
+`SKIP` = add database name which database no need take dump. 
 
-Days is used for delete old backup files from server. You can change days as per your requirement.
+        `like`;
+                `SKIP="information_schema mysql performance_schema"`
+
+### Days is used for delete old backup files from server. You can change days as per your requirement.
 
         DAYS = 10 #Default value;
 
-DEST is destination where you take backup. you can change accordinagle. 
+### DEST is destination where you take backup. you can change accordinagle. 
 
         DEST="/home/govind" #Default location;
 
-        Thank you!
+``Thank you``
